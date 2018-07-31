@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "skipFiles": [
+                "slice.rs", "mod.rs"
+            ],
+            "env": {
+                "RUST_BACKTRACE": 1
+            },
+            "name": "Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/debug/merkle-tree-final",
+            "args": [],
+            "cwd": "/Users/Shared/common/Projects/merkle-tree-final"
+        }
+    ]
+}
